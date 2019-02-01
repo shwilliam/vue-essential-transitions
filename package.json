@@ -1,0 +1,17 @@
+{
+  "name": "vue-essential-transitions",
+  "version": "0.1.1",
+  "description": "A collection of small native Vue transition styles for quick prototyping",
+  "license": "MIT",
+  "main": "dist/vue-essential-transitions.min.css",
+  "scripts": {
+    "build": "gulp minify"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "vue": "^2.5.22"
+  }
+}
