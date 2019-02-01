@@ -1,6 +1,6 @@
 {
   "name": "vue-essential-transitions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A collection of small native Vue transition styles for quick prototyping",
   "license": "MIT",
   "main": "dist/vue-essential-transitions.min.css",

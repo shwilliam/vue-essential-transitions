@@ -1,7 +1,7 @@
 <template>
   <div class="SlideFade">
-    <button type="button" @click="showing = !showing">toggle slide-fade</button>
-    <transition name="slide-fade">
+    <button type="button" @click="showing = !showing">toggle v-slide-fade</button>
+    <transition name="v-slide-fade">
       <h1 v-if="showing">hello world</h1>
     </transition>
   </div>

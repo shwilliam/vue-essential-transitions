@@ -1,5 +1,5 @@
 <template>
-  <div class="App">
+  <div id="App">
     <Fade/>
     <SlideFade/>
   </div>
@@ -18,9 +18,19 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 @import "../dist/vue-essential-transitions.min.css";
-.App > * {
-  height: 100px;
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+#App {
+  width: 100vw;
+  overflow: hidden;
+  text-align: center;
+}
+#App > * {
+  height: 120px;
 }
 </style>
