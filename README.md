@@ -8,11 +8,13 @@
 
 Transition name     | Description
 --------------------|-----------
-v-fade              | Simple opacity transition
-v-slide             | Slide in from right
-v-slide-left        | Slide in from left
-v-slide-fade        | Slide in and transition opacity from right
-v-slide-fade-left   | Slide in and transition opacity from left
+v-fade              | Transition opacity
+v-slide             | Slide in from right of window
+v-slide-left        | Slide in from left of window
+v-slide-fade        | Slide in from right and transition opacity
+v-slide-fade-left   | Slide in from left and transition opacity
+v-slide-fade-down   | Slide down and transition opacity
+v-slide-fade-up     | Slide up and transition opacity
 
 ## Installation
 

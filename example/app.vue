@@ -5,15 +5,21 @@
     <SlideLeft/>
     <SlideFade/>
     <SlideFadeLeft/>
+    <SlideFadeDown/>
+    <SlideFadeUp/>
   </div>
 </template>
 
 <script>
 import Fade from "./components/fade.vue";
+
 import Slide from "./components/slide.vue";
 import SlideLeft from "./components/slide-left.vue";
+
 import SlideFade from "./components/slide-fade.vue";
 import SlideFadeLeft from "./components/slide-fade-left.vue";
+import SlideFadeDown from "./components/slide-fade-down.vue";
+import SlideFadeUp from "./components/slide-fade-up.vue";
 
 export default {
   name: "App",
@@ -22,7 +28,9 @@ export default {
     Slide,
     SlideLeft,
     SlideFade,
-    SlideFadeLeft
+    SlideFadeLeft,
+    SlideFadeDown,
+    SlideFadeUp
   }
 };
 </script>
