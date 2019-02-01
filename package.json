@@ -5,6 +5,7 @@
   "license": "MIT",
   "main": "dist/vue-essential-transitions.min.css",
   "scripts": {
+    "example": "vue serve ./example/app.vue",
     "build": "gulp minify"
   },
   "dependencies": {},
