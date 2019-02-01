@@ -2,7 +2,7 @@
   <div class="Fade">
     <button type="button" @click="showing = !showing">toggle v-fade</button>
     <transition name="v-fade">
-      <h1 v-if="showing">hello world</h1>
+      <div class="square" v-if="showing"></div>
     </transition>
   </div>
 </template>

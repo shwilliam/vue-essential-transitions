@@ -1,7 +1,7 @@
 <template>
-  <div class="SlideFade">
-    <button type="button" @click="showing = !showing">toggle v-slide-fade</button>
-    <transition name="v-slide-fade">
+  <div class="SlideLeft">
+    <button type="button" @click="showing = !showing">toggle v-slide-left</button>
+    <transition name="v-slide-left">
       <div class="square" v-if="showing"></div>
     </transition>
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "SlideFade",
+  name: "SlideLeft",
   data() {
     return {
       showing: false
