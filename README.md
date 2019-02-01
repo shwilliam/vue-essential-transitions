@@ -6,12 +6,13 @@
 
 ## Transitions
 
-Transition name | Description
-----------------|-----------
-v-fade          | Simple opacity transition
-v-fade-in       | Slide in and transition opacity
-
-More transitions coming soon...
+Transition name     | Description
+--------------------|-----------
+v-fade              | Simple opacity transition
+v-slide             | Slide in from right
+v-slide-left        | Slide in from left
+v-slide-fade        | Slide in and transition opacity from right
+v-slide-fade-left   | Slide in and transition opacity from left
 
 ## Installation
 

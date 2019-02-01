@@ -1,0 +1,21 @@
+.v-slide-enter-active {
+  position: relative;
+}
+
+.v-slide-leave,
+.v-slide-enter-to {
+  transform: translateX(0);
+}
+
+.v-slide-enter {
+  transform: translateX(100vw);
+}
+
+.v-slide-leave-to {
+  transform: translateX(100vw);
+}
+
+.v-slide-enter-active,
+.v-slide-leave-active {
+  transition: all 750ms ease;
+}
