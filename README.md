@@ -1,6 +1,6 @@
 # vue-essential-transitions
 
-> A collection of small native Vue transition styles for quick prototyping
+> A collection of native Vue transition styles for quick prototyping
 
 [![vue-essential-transitions example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/rl27rwmxjo)
 
