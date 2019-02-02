@@ -7,10 +7,7 @@
   transform: translateX(0);
 }
 
-.v-slide-left-enter {
-  transform: translateX(-100vw);
-}
-
+.v-slide-left-enter,
 .v-slide-left-leave-to {
   transform: translateX(-100vw);
 }
