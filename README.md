@@ -9,6 +9,7 @@
 Transition name     | Description
 --------------------|-----------
 v-fade              | Transition opacity
+v-grow              | Scale into view
 v-slide             | Slide in from right of window
 v-slide-left        | Slide in from left of window
 v-slide-fade        | Slide in from right and transition opacity

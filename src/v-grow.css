@@ -1,0 +1,18 @@
+.v-grow-enter-active {
+  position: relative;
+}
+
+.v-grow-leave,
+.v-grow-enter-to {
+  transform: scale(1);
+}
+
+.v-grow-enter,
+.v-grow-leave-to {
+  transform: scale(0);
+}
+
+.v-grow-enter-active,
+.v-grow-leave-active {
+  transition: all 750ms ease;
+}

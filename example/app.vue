@@ -1,6 +1,7 @@
 <template>
   <div id="App">
     <Fade/>
+    <Grow/>
     <Slide/>
     <SlideLeft/>
     <SlideFade/>
@@ -12,6 +13,8 @@
 
 <script>
 import Fade from "./components/fade.vue";
+
+import Grow from "./components/grow.vue";
 
 import Slide from "./components/slide.vue";
 import SlideLeft from "./components/slide-left.vue";
@@ -25,6 +28,7 @@ export default {
   name: "App",
   components: {
     Fade,
+    Grow,
     Slide,
     SlideLeft,
     SlideFade,
