@@ -1,6 +1,6 @@
 {
   "name": "vue-essential-transitions",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A collection of native Vue transition styles for quick prototyping",
   "license": "MIT",
   "main": "dist/vue-essential-transitions.min.css",
@@ -8,6 +8,24 @@
     "example": "vue serve ./example/app.vue",
     "build": "gulp minify"
   },
+  "keywords": [
+    "vue",
+    "css",
+    "transitions",
+    "transition",
+    "styles",
+    "collection",
+    "easy",
+    "quick"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shwilliam/vue-essential-transitions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shwilliam/vue-essential-transitions/issues"
+  },
+  "homepage": "https://github.com/shwilliam/vue-essential-transitions#readme",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.0",
