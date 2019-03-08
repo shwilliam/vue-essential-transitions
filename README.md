@@ -12,6 +12,8 @@ v-fade              | Transition opacity
 v-grow              | Scale into view
 v-slide             | Slide in from right of window
 v-slide-left        | Slide in from left of window
+v-slide-down        | Slide in from top of window
+v-slide-up          | Slide in from bottom of window
 v-slide-fade        | Slide in from right and transition opacity
 v-slide-fade-left   | Slide in from left and transition opacity
 v-slide-fade-down   | Slide down and transition opacity

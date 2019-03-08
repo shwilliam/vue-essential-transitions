@@ -4,6 +4,8 @@
     <Grow/>
     <Slide/>
     <SlideLeft/>
+    <SlideDown/>
+    <SlideUp/>
     <SlideFade/>
     <SlideFadeLeft/>
     <SlideFadeDown/>
@@ -18,6 +20,8 @@ import Grow from "./components/grow.vue";
 
 import Slide from "./components/slide.vue";
 import SlideLeft from "./components/slide-left.vue";
+import SlideDown from "./components/slide-down.vue";
+import SlideUp from "./components/slide-up.vue";
 
 import SlideFade from "./components/slide-fade.vue";
 import SlideFadeLeft from "./components/slide-fade-left.vue";
@@ -31,6 +35,8 @@ export default {
     Grow,
     Slide,
     SlideLeft,
+    SlideDown,
+    SlideUp,
     SlideFade,
     SlideFadeLeft,
     SlideFadeDown,
